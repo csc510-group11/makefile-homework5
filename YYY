@@ -1,2 +1,2 @@
 #!/bin/sh
-tr ' ' '\n' | sort | uniq -c
+tr ' ' '\n' | sort | uniq -c | sed '1d'
